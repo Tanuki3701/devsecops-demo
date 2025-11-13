@@ -1,0 +1,8 @@
+{
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--config=.flake8"
+    ],
+    "python.defaultInterpreterPath": ".venv\\Scripts\\python.exe"
+}

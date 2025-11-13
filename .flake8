@@ -1,0 +1,17 @@
+[flake8]
+max-line-length = 88
+extend-ignore = E203
+
+# === 關鍵：忽略虛擬環境與套件 ===
+exclude =
+    .venv,
+    .git,
+    __pycache__,
+    build,
+    dist,
+    *.egg-info,
+    .tox,
+    .vscode
+
+# 只檢查 .py 檔案（避免掃到套件）
+filename = *.py
